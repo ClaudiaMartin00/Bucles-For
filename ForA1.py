@@ -1,13 +1,13 @@
 # coding: utf-8
 print("PARES E IMPARES")
-num1 = int(input("Escriba un número entero: "))
-num2 = int(input(f"Escriba un número entero mayor o igual que {numero_1}: "))
+num1 = int("Escriba un número entero: ")
+num2 = int("Escriba un número entero mayor o igual que el primero: ")
 
 while num2 < num1:
-    print(f"¡Le he pedido un número entero mayor o igual que {numero_1}!")
+    print "Le he pedido un número entero mayor o igual!!!!!!!!!"
 else:
     for i in range(num1, num2 + 1):
         while i % 2 == 0:
-            print(f"El número {i} es par")
+            print "El número es par"
         else:
-            print(f"El número {i} es impar")
+            print "El número es impar"
